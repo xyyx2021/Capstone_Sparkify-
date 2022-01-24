@@ -8,6 +8,7 @@ Udacity Data Science Nano degree
 * [Files](#files)
 * [Installation](#installation)
 * [Results](#results)
+* [Blog](#blog)
 
 ## Overview
 **Sparkify** is a digital platform providing digital music service, similar as Spotify or Pandora. In Sparkify, many of the users stream their favorite songs in Sparkify, either using free tier service from advertisement link, or using the subscription model with a monthly flat rate to stream free music. User can upgrade, downgrade or cancel their service at anytime. This project is to build model to predict churn events. This results could be also used for business strategy development to reduce the churn. 
@@ -38,3 +39,7 @@ Following steps are taken to reach the goal.
 
 ## Results
 By combining both categorical features and numerical features, the Linear SVC has the highest f1 score 0.67 comapred to Logistic Regression, Decision Tree and Random Forest classifier. However, the Linear SVC also has the longest training time, almost 10 times than other methods, if ran under the workspace. If we want to apply this to the whole dataset, logistic Regression is preferred method, as the f1 score from the Logistic Regression 0.62 is just 0.05 less than Linear SVC, but 9 times faster. 
+
+## Blog
+
+[Predict Sparkify Custormer Churn using Data Science and ML](https://medium.com/@xueyang1983/predict-churn-using-big-data-analysis-with-sparkify-37c3f6885b57)
