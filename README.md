@@ -1,4 +1,4 @@
-# Capstone_Sparkify-
+# Capstone_Sparkify
 Udacity Data Science Nano degree
 
 ## Table of contents
