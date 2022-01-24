@@ -10,10 +10,10 @@ Udacity Data Science Nano degree
 * [Results](#results)
 
 ## Overview
-**Sparkify** is a digital platform providing digital music service, similar as Spotify or Pandora. In Sparkify, many of the users stream their favorite songs in Sparkify, either using free tier service from advertisement link, or using the subscription model with a monthly flat rate to stream free music. User can upgrade, downgrade or cancel their service at anytime. This project is to build more to predict which users are more likely to churn or cancel their service. This results could be also used for business strategy development to reduce the churn. 
+**Sparkify** is a digital platform providing digital music service, similar as Spotify or Pandora. In Sparkify, many of the users stream their favorite songs in Sparkify, either using free tier service from advertisement link, or using the subscription model with a monthly flat rate to stream free music. User can upgrade, downgrade or cancel their service at anytime. This project is to build model to predict which users are more likely to churn or cancel their service. This results could be also used for business strategy development to reduce the churn. 
 
 ## Dataset
-The full dataset is 12Gb, for this project, we only use a mini subset saved as .json file provided by Udacity workspace, about 120 Mb size.
+The full dataset is 12Gb, for this project, we only use a mini subset saved as .json file provided by Udacity workspace, about 128 Mb size.
 
 ## Context
 Following steps are taken to reach the goal.
