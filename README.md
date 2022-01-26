@@ -22,7 +22,7 @@ Following steps are taken to reach the goal.
 * Exploratory data analysis: get, display and find the relevant attributes from the data using spark.sql
 * Define churn event and group relevant attributes data with the churn event
 * Feature engineering: creating and normalizing the relevant features, including categorial features and numerical features, for modeling
-* Modeling: four ML methods, Logistic Regression, Decision Tree Classifier, Random Forest Classifier, and Linear SVM, are applied in training and test to model churn events.
+* Modeling: three ML methods, Logistic Regression, Decision Tree Classifier, and Random Forest Classifier are applied in training and test to model churn events.
 
 ## Files
 *mini_sparkify_event_data.json*: The minisub data file provided by Udacity                                                    
@@ -38,7 +38,7 @@ Following steps are taken to reach the goal.
 * Seaborn                                      
 
 ## Results
-By combining both categorical features and numerical features, the Linear SVC has the highest f1 score 0.67 comapred to Logistic Regression, Decision Tree and Random Forest classifier. However, the Linear SVC also has the longest training time, almost 10 times than other methods, if ran under the workspace. If we want to apply this to the whole dataset, logistic Regression is preferred method, as the f1 score from the Logistic Regression 0.62 is just 0.05 less than Linear SVC, but 9 times faster. 
+By combining both categorical features and numerical features, the Decision Tree Classifier has the best performance with the F1-score of 0.73, and the least time spent (296s). The Logistic Regression and Random Forest Classifier have a slightly lower F1-score, but quite close, with 0.65 and 0.63. Further refinement on the Decision Tree Classifier with adding maximum of tree depth and bins didn't improve the F1-score, but at the risk of overfitting. 
 
 ## Blog
 
